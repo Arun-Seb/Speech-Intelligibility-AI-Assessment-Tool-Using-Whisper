@@ -1,0 +1,28 @@
+# Speech Intelligibility Assessment Tool - Requirements
+# Implementation based on Zhang et al. (2025)
+
+# Core dependencies for Whisper Large V2
+torch>=2.0.0
+torchaudio>=2.0.0
+transformers>=4.30.0
+
+# Data processing and analysis
+pandas>=1.5.0
+numpy>=1.23.0
+openpyxl>=3.0.0  # For Excel file support
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# Optional: for faster processing
+accelerate>=0.20.0  # Hugging Face acceleration library
+
+# Optional: for better audio processing
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Development dependencies (optional)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=4.0.0
