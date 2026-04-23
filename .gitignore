@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (too large for Git)
+*.wav
+*.mp3
+*.flac
+*.mat
+*.csv
+*.xlsx
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Model weights (too large for Git)
+*.pt
+*.pth
+*.bin
+*.onnx
+
+# Results and outputs
+results/
+outputs/
+*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+runs/
+logs/
+
+# Hugging Face cache
+.cache/
